@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(30, 30, 30);
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  outline: none;
+  box-shadow: none;
+}
+
+.nav-item a:hover {
+  color: #0C63E4;
+}
+.nav-item a:visited {
+  color: white;
+}
+
+.banner {
+  background-color: #2C2E31;
+  background-size: cover;
+}
+
+.project-illustration {
+  max-width: 60%;
+}
+
+.project-card {
+  border: none;
+}
+
+.card {
+  border: none;
+  background-color: rgb(30, 30, 30);
+}
+.card-body {
+  background-color: #2C2E31;
+  border-color: blue;
+}
+
+.card-title {
+  color: white;
+}
+
+.h1, h1 {
+  color: white;
+}
+
+.transparent-li {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+}
+
+.accordion {
+  --bs-accordion-bg: rgba(255, 255, 255, 0);
+}
+
+.accordion-button {
+  color: white;
+}
+
+.accordion-body {
+  padding-left: 8px;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.footer-bar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  margin-top: 2%;
+  margin-right: 10%;
+}
+
+@media (max-width: 575px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+    margin-top: 10%;
+  }
+  .nav-item {
+    text-align: right;
+  }
+  .col-sm {
+    margin-bottom: 10%;
+  }
+  #skills, #projects {
+    max-width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .project-illustration {
+    max-width: 80%;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2em;
+  }
+}/*# sourceMappingURL=styles.css.map */

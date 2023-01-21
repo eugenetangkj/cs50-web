@@ -1,0 +1,121 @@
+$body-bg: 	rgb(30, 30, 30);
+$body-color: white;
+
+$font-family-sans-serif: 'Urbanist', sans-serif;
+
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: rgb(30, 30, 30);
+}
+
+.navbar-brand {
+    color: white;
+}
+.nav-link {
+    color: $white;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-item {
+    a:hover {
+        color: #0C63E4;
+    }
+
+    a:visited {
+        color: white;
+    }
+
+}
+
+h1 {
+    color: white;
+}
+
+.banner {
+    background: #131B25, url('../../assets/banner.png');
+    background-size: cover;
+}
+
+.project-illustration {
+    max-width: 60%;
+}
+
+.project-card {
+    border: none;
+}
+.card-body {
+    background-color: #2C2E31;
+}
+
+.transparent-li {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+}
+
+.accordion-body {
+    padding-left: 8px;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+
+.footer-bar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-top: 2%;
+    margin-right: 10%;
+}
+
+@media (max-width: 575px) {
+
+    .navbar-collapse {
+        justify-content: flex-end;
+        margin-top: 10%;
+    }
+
+    
+
+    .nav-item {
+       text-align: right;
+    }
+
+    
+
+    .col-sm {
+        margin-bottom: 10%;
+    }
+
+    #skills, #projects {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .project-illustration {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2rem;
+        padding-left: 2em;
+    }
+}
+
+
+
