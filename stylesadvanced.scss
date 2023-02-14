@@ -1,0 +1,107 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+
+//Navigation
+#nav-back {
+    justify-content: flex-end;
+}
+
+.nav-padding {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+
+//Container
+.container {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  -ms-transform: translate(-40%, -40%);
+  transform: translate(-40%, -40%);
+    
+}
+
+.row {
+    justify-content:  center;
+}
+
+
+//Logo
+#google-logo {
+    width: 22%;
+    height: 22%;
+}
+
+
+
+
+.form-control:focus {
+    border-color: rgba(228, 228, 228, 0.8);
+    box-shadow: 0 0.5px 0.5px rgba(198, 226, 248, 0.637) inset, 0 0 8px rgb(155, 200, 252);
+}
+
+h6 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+
+//Search fields
+.search-field {
+    width: 40%;
+    margin: auto;
+    margin-left: 10%;
+    
+}
+
+//Search button
+#search-button {
+    width: 150px;
+    background-color: rgb(71, 136, 255);
+    color: white;  
+}
+
+#search-button:hover {
+    background-color: rgb(57, 111, 212);
+    color: white;  
+}
+
+
+
+//Media queries for responsive design
+@media (max-width: 992px) {
+    .search-field {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 767px) {
+    .search-field {
+        margin-left: -5%;
+        width: 60%;
+    }
+
+    h6 {
+        font-size: 0.8em;
+    }   
+}
+
+@media (max-width: 576px) {
+    .search-field {
+        margin-left: -5%;
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+

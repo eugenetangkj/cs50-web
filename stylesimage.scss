@@ -1,0 +1,123 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+
+//Navigation
+#nav-back {
+    justify-content: flex-end;
+}
+
+.nav-padding {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+
+//Container
+.container {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    
+}
+
+.row {
+    justify-content:  center;
+}
+
+
+//Logo
+#google-logo {
+    width: 22%;
+    height: 22%;
+}
+
+//Form
+#form-div {
+    text-align: center;
+}
+
+.form-control:hover {
+    border-color: rgba(228, 228, 228, 0.8);
+    box-shadow: 0 0.5px 0.5px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(209, 209, 209);
+}
+
+
+.form-control:focus {
+    border-color: rgba(228, 228, 228, 0.8);
+    box-shadow: 0 0.5px 0.5px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(209, 209, 209);
+}
+
+
+//Search bar
+#search-bar {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+//Search button
+#search-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+//Media queries for responsive design
+@media (max-width: 992px) {
+    #google-logo {
+        width: 30%;
+        height: 30%;
+    }
+
+    #search-bar {
+        width: 50%;
+    }
+
+    #search-button {
+        width: 20%;
+    }
+
+
+
+
+}
+
+@media (max-width: 767px) {
+    #google-logo {
+        width: 40%;
+        height: 40%;
+    } 
+
+    #search-bar {
+        width: 50%;
+    }
+
+    #search-button {
+        width: 20%;
+    }
+}
+
+@media (max-width: 576px) {
+    #google-logo {
+        width: 40%;
+        height: 40%;
+    } 
+
+    #search-bar {
+        width: 60%;
+    }
+
+    #search-button {
+        width: 25%;
+    }
+}
+
+
