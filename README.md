@@ -11,3 +11,9 @@ The task was to create Google Search, Google Image Search and Google Advanced Se
 
 
 Visit the site [here](https://lucky-puppy-92ac30.netlify.app/index.html) and watch a video introducing the project [here](https://youtu.be/xrsW67suZHs).
+
+### Project 1
+The objective of this project was to create a Wikipedia page that allows users to add and edit entries using Markdown. However, instead of hard-coding the webpages, I had to use Django which allowed me to dynamically create HTML files depending on the user's input. This project taught me the essentials of Django and I had the opportunity to use different Python modules such as  `markdown2` to convert from Markdown to HTML.
+
+
+Watch a video introducing the project [here](https://youtu.be/L4bTzkTtfz8).
