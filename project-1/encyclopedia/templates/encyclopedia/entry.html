@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ entry_name }}
+{% endblock %}
+
+{% block body %}
+    {% if entry_body is None %}
+        <h1>There is no such entry.</h1>
+    {% else %}
+        {{ entry_body|safe }}
+        <form action="{% url 'encyclopedia:edit' entry_name=entry_name %}" method="post">
+            {% csrf_token %}  
+            <input type="submit" class="mt-2" value="Edit Page">
+        </form>
+    {% endif %}
+{% endblock %}
